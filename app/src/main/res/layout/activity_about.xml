@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AboutActivity"
+        android:padding="40dp"
+        android:background="@drawable/gradient_background">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/intro_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="39dp"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="true"
+            android:text='Founded on the 18th of September 2017, God’s Gracious Greenland Academy is a citadel of primary and secondary education dedicated to the development of Nigeria’s future leaders. Since our establishment (and indeed, our conception by our visionary founder, Grace Oluwakemi), our main goal has been and is to raise a “total" child; a child that would exhibit moral, cognitive, intellectual, and creative prowess after being a part of our system.'
+            android:textColor="#95FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ksp2_resized"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ksp_resized"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="true"
+            android:text="To this view, many developments have been put in place since our establishment, as we’ve intended to instantiate meaningful attempts to keep up with the dynamic state of primary and secondary education for the realization of our aims and objectives. Among these attempts is the creation and maintenance of a conducive learning environment where pupils and students acquire the basic and advanced modern skill sets needed to compete and excel in today’s society as well as the availability of competent, diligent, and compassionate educators to offer the proper and most valuable skills and information packages to the pupils and students in the most optimal manner possible."
+            android:textColor="#95FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
